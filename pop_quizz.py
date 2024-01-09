@@ -31,7 +31,7 @@ def pop_quizz_ML(nombre):
     return liste
 
 ## Read Data
-data = pd.read_csv('/home/melb/Documents/Livres_Cheatsheet/flashcard.csv', names=['card_name'])
+data = pd.read_csv('Machine_Learning_flashcards/flashcards.csv', names=['card_name'])
 #print(data.shape) #(299, 1)
 data.head()
 
@@ -41,6 +41,6 @@ liste = pop_quizz_ML(nombre)
 #print(liste)
 
 for item in liste:
-    with Image.open(f'/home/melb/Documents/Livres_Cheatsheet/Machine_Learning_Flashcards/{item}') as card:
+    with Image.open(f'Machine_Learning_flashcards/{item}') as card:
         card.show()
 
