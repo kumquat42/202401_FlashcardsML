@@ -15,6 +15,8 @@ Open a selected number of Machine Learning flashcards to train.
 ### How to run
 * Download the github file  
 * Run on command line: 
-```python3 pop_quizz.py --n int```, where *int* is the number of cards you want to appear.  
+```python3 pop_quizz.py --n int```, where *int* is the number of cards you want to appear.
+
+*Please change your path in the .py script before running. It is not automatically updated.*
 
 Requirements : python 3.1 at least, pandas, PIL, argparse, random
