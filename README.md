@@ -1,4 +1,4 @@
-# 202401_FlashcardsML
+# FlashcardsML_MB_2024
 
 Author: Beraud M. 20240109
 
