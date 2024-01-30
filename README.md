@@ -1,6 +1,6 @@
 # 202401_FlashcardsML
 
-Editor: Beraud M. 20240109
+Author: Beraud M. 20240109
 
 Open a selected number of Machine Learning flashcards to train.
 
